@@ -1,0 +1,93 @@
+.meter {
+    width: 300px; /* edit here to change the progress bar width. Max width for spectrum style is 400px */
+    height: 16px;
+    line-height: 16px;
+    color: #fff;
+
+    clear: both;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    background-color: #fafafa;
+    box-shadow: inset 0 1px 2px #ccc, 0 1px 1px #fff;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.meter div {
+
+}
+.spectrum, .red, .gray, .green, .orange, .blue {
+    width: 0;
+    height: 15px;
+    border-radius: 3px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    text-shadow: 0 1px 2px #333;
+    font-size: 10px;
+    background: -webkit-gradient(linear, 0 0, 44 44, color-stop(0, rgba(255, 255, 255, 0.17)), color-stop(0.25, rgba(255, 255, 255, 0.17)), color-stop(0.26, rgba(255, 255, 255, 0)), color-stop(0.5, rgba(255, 255, 255, 0)), color-stop(0.51, rgba(255, 255, 255, 0.17)), color-stop(0.75, rgba(255, 255, 255, 0.17)), color-stop(0.76, rgba(255, 255, 255, 0)), color-stop(1, rgba(255, 255, 255, 0))), -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 0)), color-stop(1, rgba(255, 255, 255, 0.35)));
+    background: -moz-repeating-linear-gradient(top left -30deg, rgba(255, 255, 255, 0.17), rgba(255, 255, 255, 0.17) 15px, rgba(255, 255, 255, 0) 15px, rgba(255, 255, 255, 0) 30px), -moz-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-size: 40px 40px;
+    -moz-background-size: 40px 40px;
+}
+.meter .spectrum {
+    background: transparent url('../img/pbar.png') repeat-y 0 0;
+    -webkit-background-size: 100% 40px; /* Safari fix */
+    border-bottom: 1px solid #bbb;
+}
+.meter .red {
+    background-color: #e70000;
+    border-bottom: 1px solid #bc1515;
+}
+.meter .green {
+    background-color: #14c631;
+    border-bottom: 1px solid #19ad31;
+}
+.meter .gray {
+    background-color: #909090;
+    border-bottom: 1px solid #838383;
+}
+.meter .orange {
+    background-color: #ff8503;
+    border-bottom: 1px solid #eb7b05;
+}
+.meter .blue {
+    background-color: #00afdc;
+    border-bottom: 1px solid #079bc1;
+}
+
+
+.bubble {
+    position: absolute;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 5px;
+    color: #444;
+    padding: 0 4px;
+    line-height: 16px;
+    border-radius: 2px;
+    border: 1px solid #e0e0e0;
+    font-size: 10px;
+    background-color: white;
+}
+
+.arrow,
+.arrow:before {
+    height: 0;
+    width: 0;
+    top: -10px;
+    z-index: 100;
+    position: absolute;
+    
+    content: '';
+}
+.arrow {
+    border-bottom-color: #ccc;
+    left: 0;
+}
+.arrow:before {
+    border-bottom-color: #fff;
+    top: -4px;
+    left: -5px;
+}

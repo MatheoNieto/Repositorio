@@ -1,0 +1,99 @@
+body{
+     font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+     -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+
+}
+#contenedor-viewdocument{
+ background-color:rgba(0,0,0,0.75);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: auto;
+    width: 90%;
+    margin-left: 10px;
+   
+
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+}
+
+#menucomentarios{
+   background-color: transparent;
+   position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0%;
+    left: 97.5%;
+    z-index: 2;   
+    
+}
+
+
+#formcomentarios{
+    opacity: 0;
+}
+
+#contendorcomnetarios{
+     border-top: 1px solid black;
+    height: 390px;
+     overflow-y: auto;
+    overflow-x: hidden;
+}
+#fondo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+#contenedor-viewdocument2{
+ background-color:rgba(0,0,0,0.75);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#menucomentarios2{
+   background-color: transparent;
+   position: absolute;
+    width: 10%;
+    height: 100%;
+    top: 0%;
+    left: 97.5%;
+    z-index: 2;
+   
+    
+}
+
+
+#formcomentarios2{
+    opacity: 0;
+}
+
+#contendorcomnetarios2{
+     border-top: 1px solid black;
+    height: 390px;
+     overflow-y: auto;
+    overflow-x: hidden;
+}
+#fondo2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
