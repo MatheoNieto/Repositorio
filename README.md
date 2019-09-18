@@ -5,8 +5,9 @@ de grado e informes finales.
 
 # Preview
 ## Pagina de logeo
-![](docs/Index.jpg)
-
+![](docs/Index.png)
+## Invitado
+![](docs/Invitado.png)
 ## Modulo de estudiante
 ![](docs/Estudiante.png)
 
