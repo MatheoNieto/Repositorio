@@ -16,7 +16,7 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-<script src="<?php echo base_url(); ?>scripts/scriptrestablecer.js" ></script>
+<!-- <script src=" echo base_url(); scripts/scriptrestablecer.js" ></script> -->
 </head>
 
 <body onload="nobackbutton()">
@@ -65,6 +65,34 @@
         </div>
         
   </div>
+
+<script>
+
+$(document).ready(function(){
+    
+    $("#cambiarcontra").submit(function(eve){
+        eve.preventDefault();
+        var pass = $("#contrasena").val();
+            $("#contrasena").val(pass+"*****-----");
+                $.ajax({
+			url:$("#cambiarcontra").attr("action"),
+			type:$("#cambiarcontra").attr("method"),
+			data:$("#cambiarcontra").serialize(),
+			success :function(data){
+                
+                window.location.href = "<?php echo base_url(); ?>";
+
+			}
+});
+    });
+    
+
+     
+});
+
+
+</script>
+
 
 
 

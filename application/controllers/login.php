@@ -100,7 +100,7 @@ if($hora <= 11){
 $this->email->from('Repositorio TDS');
  $this->email->to($email);
  $this->email->subject('Restablecer contrasena');
- $this->email->message('<h2>Buenos dias</h2><p>Este es el link para restablecer su contrasena <a href="http://repositorioucp.com/ee23dbaf02c1c082b56eea35e59adbf?qwert='.$correencrip.'">Clic aqui</a></p>');
+ $this->email->message('<h2>Buenos dias</h2><p>Este es el link para restablecer su contrasena <a href="'.base_url().'/ee23dbaf02c1c082b56eea35e59adbf?qwert='.$correencrip.'">Clic aqui</a></p>');
   $this->email->send();
  var_dump($this->email->print_debugger());
 }
@@ -108,7 +108,7 @@ else if($hora < 18 ){
 $this->email->from('Repositorio TDS');
  $this->email->to($email);
  $this->email->subject('Restablecer contrasena');
-  $this->email->message('<h2>Buenas tardes<h2> <p>Este es el link para restablecer su contrasena <a href="http://repositorioucp.com/ee23dbaf02c1c082b56eea35e59adbf?qwert='.$correencrip.'">Clic aqui</a></p>');
+  $this->email->message('<h2>Buenas tardes<h2> <p>Este es el link para restablecer su contrasena <a href="'.base_url().'/ee23dbaf02c1c082b56eea35e59adbf?qwert='.$correencrip.'">Clic aqui</a></p>');
    $this->email->send();
  var_dump($this->email->print_debugger());
 }
@@ -116,7 +116,7 @@ else{
 $this->email->from('Repositorio TDS');
  $this->email->to($email);
  $this->email->subject('Restablecer contrasena');
- $this->email->message('<h2>Buenas noches</h2><p>Este es el link para restablecer su contrasena <a href="http://repositorioucp.com/ee23dbaf02c1c082b56eea35e59adbf?qwert='.$correencrip.'">Clic aqui</a></p>');       
+ $this->email->message('<h2>Buenas noches</h2><p>Este es el link para restablecer su contrasena <a href="'.base_url().'/ee23dbaf02c1c082b56eea35e59adbf?qwert='.$correencrip.'">Clic aqui</a></p>');       
  $this->email->send();
  var_dump($this->email->print_debugger());     
     }
