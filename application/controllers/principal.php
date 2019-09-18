@@ -612,7 +612,7 @@ public function creardocumento(){
             $this->load->view('contenido/contenedor8-11-1',$datosu);
             $this->load->view('contenido/contenedor8-11-1-1',$datosu);
              }else{
-            redirect('http://repositorioucp.com'); 
+            redirect('principal'); 
         }  
        
     }

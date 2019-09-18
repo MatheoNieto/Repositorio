@@ -9,6 +9,7 @@
         <ul data-role="listview" data-autodividers="true" data-filter="true" data-inset="true">
             
             <?php
+            if (isset($documentostfT)){
                 foreach ($documentostfT as $doct){
                     if ($doct->Estado != "Sin iniciar"){
                         
@@ -36,6 +37,7 @@
                             </li>';
                     }
                 }
+            }
             ?> 
             
         </ul>
@@ -52,6 +54,7 @@
         <ul data-role="listview" data-autodividers="true" data-filter="true" data-inset="true">
             
             <?php  
+            if (isset($documentostfA)){
                 foreach ($documentostfA as $doct){ 
                     if ($doct->Estado != "Sin iniciar"){
                         
@@ -80,6 +83,7 @@
                             </li>';
                     }
                 }
+            }
             ?>     
             
         </ul>

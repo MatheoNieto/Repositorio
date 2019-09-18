@@ -1333,7 +1333,7 @@
         <center><img src="<?php echo base_url(); ?>css/images/loading.gif" alt=""></center>
     </div>
  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script src="<?php echo base_url(); ?>scripts/jsadmin/script.js"></script>
+        <!-- <script src="<?php echo base_url(); ?>scripts/jsadmin/script.js"></script> -->
         <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
         <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

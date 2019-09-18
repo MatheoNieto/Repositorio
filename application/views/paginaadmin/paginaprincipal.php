@@ -50,7 +50,7 @@
 
         <header class="main-header">
             <!-- Logo -->
-            <a target="_blank" href="http://repositorioucp.com/admin" class="logo">
+            <a target="_blank" href="<?php echo base_url();?>/admin" class="logo">
    Repositorio TDS
     </a>
             <!-- Header Navbar: style can be found in header.less -->
