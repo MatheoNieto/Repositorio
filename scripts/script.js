@@ -698,7 +698,7 @@ $(function() {
 
 
 
-// $(document).ready( function () {
+$(document).ready( function () {
     
 // $("#img1").click(function() {
 // $("#imgfondo").attr("src","http://localhost/Dropbox/proyecto/repositorio/css/images/fondos/1.jpg");
@@ -790,11 +790,11 @@ $(function() {
 }else{
    $('#headermenu').css({'background-color':'rgba(255,255,255,0.65)'});
             
-   $('#main-container').css({'background-color':'rgba(255,255,255,0.6)','border-left':'1px solid black','border-top':'1px solid black'});
+   $('#main-container').css({'background-color':'rgba(255,255,255,0.7)','border-left':'1px solid black','border-top':'1px solid black'});
 
-    $('#main-container2').css({'background-color':'rgba(255,255,255,0.6)','border-left':'1px solid black','border-top':'1px solid black'});
+    $('#main-container2').css({'background-color':'rgba(255,255,255,0.7)','border-left':'1px solid black','border-top':'1px solid black'});
             
-   $('#sidebar').css({'background-color':'rgba(255,255,255,0.6)','color':'black'});
+   $('#sidebar').css({'background-color':'rgba(255,255,255,0.7)','color':'black'});
             
     $('#opciones').css({'background-color':'#b0b3b6','color':'black','border':'1px solid #000000'});
             

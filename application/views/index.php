@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <head>
         <meta charset="UTF-8">
         <link rel="shortcut icon" type="image/x-icon" href= "<?php echo base_url(); ?>css/images/favicon.ico" />
-        <title>Bienvenido al Repositorio de la facultad</title>
+        <title>Bienvenido al Repositorio</title>
         <!-----------------------------------css----------------------->
         <link rel = "stylesheet" type = "text/css" 
         href = "<?php echo base_url(); ?>css/style.css">
@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <script src="<?php echo base_url(); ?>scripts/sweetalert2.js " ></script>
            <script src="<?php echo base_url(); ?>scripts/scriptlogin.js" ></script> 
     </head>
-    <body onload="nobackbutton()">
+    <body onload="nobackbutton()" style="padding:10px">
         <center>
             <div id="bg"></div>
             <header id="header1">
@@ -33,7 +33,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             
             <header id="header" class="col-sm-6">
             <h1>ACCESO  AL REPOSITORIO</h1>
-            <h2>Facultad de Ciencias Basicas e Ingenieria</h2>
+            <h2>De antproyectos e informes finales</h2>
             <br>
                 <div class="login-page">
                    

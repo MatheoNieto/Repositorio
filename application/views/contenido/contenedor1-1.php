@@ -1,7 +1,7 @@
      <!-- Sidebar Holder -->
            <nav id="sidebar" <?php foreach ($usuarios as $user){  if ($user->tema > 0){
     echo 'style="background-color:rgba(0,0,0,0.65);color:#fff"';}else{
-    echo 'style="background-color:rgba(255,255,255,0.6);color:black;"';
+    echo 'style="background-color:rgba(255,255,255,0.7);color:black;"';
 }} ?>>
             <div class="sidebar-header">
                 <div id="mage">
@@ -14,7 +14,7 @@
                 <p id="titlerepo" <?php foreach ($usuarios as $user){  if ($user->tema > 0){
     echo 'style="color:#fff"';}else{
     echo 'style="color:black;"';
-}} ?>>Repositorio proyectos de grado Tecnologia en desarrollo de software</p>
+}} ?>>Repositorio proyectos de grado</p>
                 <li <?php 
                     foreach ($documentos as $documents){
                 if ($documents->Estado == "Proceso"){

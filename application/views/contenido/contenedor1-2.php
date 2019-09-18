@@ -3,7 +3,7 @@
 
             <nav class="navbar navbar-default" id="headermenu" <?php foreach ($usuarios as $user){  if ($user->tema > 0){
     echo 'style="background-color:rgba(0,0,0,0.65);"';}else{
-    echo 'style="background-color:rgba(255,255,255,0.6);"';
+    echo 'style="background-color:rgba(255,255,255,0.7);"';
 }} ?> >
                 <div class="container-fluid">
 
