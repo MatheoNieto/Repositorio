@@ -8,6 +8,7 @@
         <h3>Titulos de anteproyectos</h3>
         <ul data-role="listview" data-autodividers="true" data-filter="true" data-inset="true">
             <?php  
+            if (isset($documentostaT)){
                 foreach ($documentostaT as $doct){ 
                     if ($doct->Estado != "Sin iniciar"){
                             
@@ -35,6 +36,7 @@
                             </li>';
                     }
                 }
+            }
             ?>
         </ul>
         <br>
@@ -50,6 +52,7 @@
         <ul data-role="listview" data-autodividers="true" data-filter="true" data-inset="true">
 
             <?php  
+                if (isset($documentostaA)){
                 foreach ($documentostaA as $doct){ 
                     if ($doct->Estado != "Sin iniciar"){
                         
@@ -78,6 +81,7 @@
                             </li>';
                     }
                 }
+            }
             ?>  
 
         </ul>

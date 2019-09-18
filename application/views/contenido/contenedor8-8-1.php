@@ -12,7 +12,7 @@
                 <h4 class="media-heading">Descripcion del anexo</h4>
                 '.$anex2->descripcionanexo.'
                 <br>
-                <a title="Ver Anexo" target="_blank" href="http://localhost/Dropbox/proyecto/repositorio/css/anexos2/'.$anex2->anexo.'"><img src="'. base_url().'css/images/ver.png"  alt="Agregar un anexo"></a>
+                <a title="Ver Anexo" target="_blank" href="'.base_url().'css/anexos2/'.$anex2->anexo.'"><img src="'. base_url().'css/images/ver.png"  alt="Agregar un anexo"></a>
 
                 <span class="label label-default">'.$anex2->fecha_anexo.'</span>
                 </div>

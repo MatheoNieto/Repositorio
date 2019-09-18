@@ -12,7 +12,7 @@
                     </div>
     <br>
     <br>
-       <script src="<?php echo base_url(); ?>scripts/script2/script3.js" ></script>
+       <!-- <script src="<?php echo base_url(); ?>scripts/script2/script3.js" ></script> -->
      <div class="col-sm-6 col-md-4  media contenedordeladjunto" id="contenedoradjuntos2" >
                 <div class="media-left media-middle">
                 <a href="#">

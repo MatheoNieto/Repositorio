@@ -17,7 +17,7 @@
             <!-----------------------------------Scripts-----------------------> 
             <script src="<?php echo base_url(); ?>scripts/jquery-1.11.3.min.js" ></script>
             <script src="<?php echo base_url(); ?>scripts/sweetalert2.js " ></script>
-            <script src="<?php echo base_url(); ?>scripts/script6.js " ></script>             
+            <!-- <script src="<?php echo base_url(); ?>scripts/script6.js " ></script>              -->
           </head>
           <body onload="nobackbutton()">
             <div id="fondo">

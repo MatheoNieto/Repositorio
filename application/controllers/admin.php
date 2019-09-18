@@ -312,7 +312,7 @@ $this->email->from('Repositorio TDS');
           
           <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-bottom:20px;">
             <tr>
-              <td width="100%" align="left" valign="middle" style="color:#595959; font-size:11px; font-family:Arial, Helvetica, sans-serif; padding:10px;"> <b>Repositorio Institucional</b><br>Link del Repositorio: <a href="'.base_url().'" target="_blank"  style="color:#595959; text-decoration:none;">Repositorio</a><br>
+              <td width="100%" align="left" valign="middle" style="color:#595959; font-size:11px; font-family:Arial, Helvetica, sans-serif; padding:10px;"> <b>Repositorio Institucional Facultad de Ciencias Basicas e Ingenieria Programa Tecnologia en Desarrollo de software</b><br>Link del Repositorio: <a href="'.base_url().'" target="_blank"  style="color:#595959; text-decoration:none;">Repositorio</a><br>
 <br>
 
                 <b>Alguna Inquietud escribir al correo:</b><br> <p  style="color:blue; text-decoration:none;">Ejemplo@gmail.com</p></td>
@@ -384,7 +384,7 @@ $this->email->from('Repositorio TDS');
           
           <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-bottom:20px;">
             <tr>
-              <td width="100%" align="left" valign="middle" style="color:#595959; font-size:11px; font-family:Arial, Helvetica, sans-serif; padding:10px;"> <b>Repositorio Institucional</b><br>Link del Repositorio: <a href="'.base_url().'" target="_blank"  style="color:#595959; text-decoration:none;">Repositorio</a><br>
+              <td width="100%" align="left" valign="middle" style="color:#595959; font-size:11px; font-family:Arial, Helvetica, sans-serif; padding:10px;"> <b>Repositorio Institucional Facultad de Ciencias Basicas e Ingenieria Programa Tecnologia en Desarrollo de software</b><br>Link del Repositorio: <a href="'.base_url().'" target="_blank"  style="color:#595959; text-decoration:none;">'.base_url().'</a><br>
 <br>
 
                 <b>Alguna Inquietud escribir al correo:</b><br> <p  style="color:blue; text-decoration:none;">ejemplo@gmail.com</p></td>
@@ -456,7 +456,7 @@ $this->email->from('Repositorio TDS');
           
           <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-bottom:20px;">
             <tr>
-              <td width="100%" align="left" valign="middle" style="color:#595959; font-size:11px; font-family:Arial, Helvetica, sans-serif; padding:10px;"> <b>Repositorio Institucional</b><br>Link del Repositorio: <a href="'.base_url().'" target="_blank"  style="color:#595959; text-decoration:none;">repositorio</a><br>
+              <td width="100%" align="left" valign="middle" style="color:#595959; font-size:11px; font-family:Arial, Helvetica, sans-serif; padding:10px;"> <b>Repositorio Institucional Facultad de Ciencias Basicas e Ingenieria Programa Tecnologia en Desarrollo de software</b><br>Link del Repositorio: <a href="" target="_blank"  style="color:#595959; text-decoration:none;">Repositorio</a><br>
 <br>
 
                 <b>Alguna Inquietud escribir al correo:</b><br> <p  style="color:blue; text-decoration:none;">ejemplo@gmail.com</p></td>
