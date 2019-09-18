@@ -32,7 +32,7 @@ $(document).ready(function(){
      var parametros = {"id" : valor};
     
                     $.ajax({
-                        url:"http://localhost/Dropbox/proyecto/repositorio/principal/cargaDatos7",
+                        url:"<?php echo base_url(); ?>principal/cargaDatos7",
                         type:"POST",
                         data:parametros,
                         success:function(data){                                     $("#contendorcomnetarios").empty; $("#contendorcomnetarios").html(data);
@@ -73,7 +73,7 @@ $("#btncomentarios").dblclick(function(){
 
 $(document).ready(function(){
 $("#btn-atras2").click(function() {
-window.location.href = "http://localhost/Dropbox/proyecto/repositorio/principal";
+window.location.href = "<?php echo base_url(); ?>principal";
    
 });
 });

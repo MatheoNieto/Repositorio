@@ -43,6 +43,6 @@
     </div>  
     </div> 
     
-<script src="<?php echo base_url(); ?>scripts/script2.js " ></script> 
+<!-- <script src="<?php echo base_url(); ?>scripts/script2.js " ></script>  -->
  <!-- <script src="<?php echo base_url(); ?>scripts/script.js " ></script>  -->
  

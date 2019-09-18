@@ -1,4 +1,4 @@
- <script src="<?php echo base_url(); ?>scripts/script4.js " ></script> 
+ <!-- <script src="<?php echo base_url(); ?>scripts/script4.js " ></script>  -->
 <div  id="contenedor-adjuntosdocument" class="animated fadeInRight">
                 <div class="row"> <a  id="btn-atras" style="margin-left:20px;"><img src="<?php echo base_url(); ?>css/images/flecha-atras.png"  alt="" class="fa fa-user bigicon"></a> </div>
                 <br>

@@ -60,4 +60,4 @@
     </div>
 
     
-<script src="<?php echo base_url(); ?>scripts/script2/script4.js " ></script> 
+<!-- <script src="<?php echo base_url(); ?>scripts/script2/script4.js " ></script>  -->

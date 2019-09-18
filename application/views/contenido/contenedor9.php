@@ -59,4 +59,4 @@
     </div>
     </div>
     </div>
- <script src="<?php echo base_url(); ?>scripts/script3.js " ></script> 
+ <!-- <script src="<?php echo base_url(); ?>scripts/script3.js " ></script>  -->
