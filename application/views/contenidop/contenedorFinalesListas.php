@@ -105,9 +105,11 @@
                     <span class="ui-li-count">
                     <?php 
                         $i=0;
+                        if (isset($documentosF)){
                         foreach ($documentosF as $doct){ 
                         if ($doct->Estado == "Proceso"){
                             $i++;                 
+                        }
                         }
                         }
                         echo $i
@@ -123,9 +125,11 @@
                     <span class="ui-li-count">
                         <?php 
                         $i=0;
+                        if (isset($documentosF)){
                         foreach ($documentosF as $doct){ 
                         if ($doct->Estado == "Terminado"){
                             $i++;                 
+                        }
                         }
                         }
                         echo $i
@@ -142,9 +146,11 @@
 
                     <?php 
                         $i=0;
+                        if (isset($documentosF)){
                         foreach ($documentosF as $doct){ 
                         if ($doct->Estado != "Sin iniciar"){
                             $i++;                 
+                        }
                         }
                         }
                         echo $i

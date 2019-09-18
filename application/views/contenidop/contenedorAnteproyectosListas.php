@@ -105,9 +105,11 @@
 
                 <?php 
                     $i=0;
+                    if (isset($documentosA)){
                     foreach ($documentosA as $doct){ 
                     if ($doct->Estado == "Proceso"){
                         $i++;                 
+                    }
                     }
                     }
                     echo $i
@@ -125,9 +127,11 @@
 
                 <?php 
                     $i=0;
+                    if (isset($documentosA)){
                     foreach ($documentosA as $doct){ 
                     if ($doct->Estado == "Terminado"){
                         $i++;                 
+                    }
                     }
                     }
                     echo $i
@@ -145,8 +149,10 @@
 
                 <?php 
                     $i=0;
+                    if (isset($documentosA)){
                     foreach ($documentosA as $doct){ 
                         $i++;    
+                    }
                     }
                     echo $i
                 ?>
