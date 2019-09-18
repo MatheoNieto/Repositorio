@@ -8,13 +8,13 @@ de grado e informes finales.
 ![](docs/Index.jpg)
 
 ## Modulo de estudiante
-![](docs/Estudiante.jpg)
+![](docs/Estudiante.png)
 
 ## Modulo del profesor
-![](docs/Profesor.jpg)
+![](docs/Profesor.png)
 
 ## Modulo administrador
-![](docs/Administrador.jpg)
+![](docs/Administrador.png)
 
 # Tecnología para el desarrollo
 - HTML
