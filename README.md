@@ -5,16 +5,16 @@ de grado e informes finales.
 
 # Preview
 ## Pagina de logeo
-![](docs/index.jpg)
+![](docs/Index.jpg)
 
 ## Modulo de estudiante
-![](docs/estudiante.jpg)
+![](docs/Estudiante.jpg)
 
 ## Modulo del profesor
-![](docs/profesor.jpg)
+![](docs/Profesor.jpg)
 
 ## Modulo administrador
-![](docs/admin.jpg)
+![](docs/Administrador.jpg)
 
 # Tecnología para el desarrollo
 - HTML
