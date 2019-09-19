@@ -5,7 +5,9 @@
 <!---------------------------------------------------------------------------------------------------------------------------->
   
   <?php 
-    
+
+    if (isset($Estado)){
+
     echo '<script>
     
         var tipo = "'.$Estado.'";
@@ -15,36 +17,23 @@
         foreach ($Adjunto as $adj){
 
             echo '<script>window.onload=cargarComentario('.$adj->id.',tipo);</script>';
+            echo '<script>alert('.$adj->adjunto.')</script>';
 
         }
+    }else{
+        $Estado = "";
+    }
         
     ?>
-   
+    
     <h3 style="margin-left: 3%;"><?php foreach ($Adjunto as $adj){echo $adj->adjunto;}?></h3>
 
 <!---------------------------------------------------------------------------------------------------------------------------->
 <!-------------------------------------------------DOCUMENTO------------------------------------------------------------------>
 <!---------------------------------------------------------------------------------------------------------------------------->
-
-    <?php 
-        if ($Estado == "ante"){
-    ?>
-   
     <div class="embed-container">
-        <iframe width="560" height="300" src="<?php echo base_url(); ?>css/adjuntos/<?php foreach ($Adjunto as $adj){echo $adj->adjunto;}?>" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="300" src="<?php echo base_url(); ?>css/adjuntos/<?php foreach ($Adjunto as $adj){echo $adj->adjunto;}?>" frameborder="0" allowfullscreen></iframe>
     </div>
-    
-    <?php 
-        }elseif ($Estado == "final"){
-    ?>
-    
-    <div class="embed-container">
-        <iframe width="560" height="300" src="<?php echo base_url(); ?>css/adjuntos2/<?php foreach ($Adjunto as $adj){echo $adj->adjunto;}?>" frameborder="0" allowfullscreen></iframe>
-    </div>
-    
-    <?php 
-        }
-    ?>
     
 </div>
     
