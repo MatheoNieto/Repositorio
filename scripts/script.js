@@ -850,14 +850,15 @@ function adjunto(){
      
     $("#titulodocumento2").text(nombre);
     
-}function adjuntoA(){
+ }
+//  function adjuntoA(){
 
-     $("#contenedoranexo").fadeIn("slow");
-   var nombre = document.getElementById('anexo2').files[0].name;
-     
-    $("#titulodocumentoa2").text(nombre);
+//     var nombre = document.getElementById('anexo2').files[0].name;
     
-}
+//     $("#titulodocumentoa2").text(nombre);
+//     $("#contenedoranexo").fadeIn("slow");           
+    
+// }
 
 
 
