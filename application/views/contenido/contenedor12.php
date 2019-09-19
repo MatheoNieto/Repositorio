@@ -57,11 +57,11 @@
 
    <script>function adjuntoA(){
 
-     $("#contenedoranexo").fadeIn("slow");
-   var nombre = document.getElementById('anexo').files[0].name;
+     var nombre = document.getElementById('anexo').files[0].name;
      
-    $("#titulodocumentoa").text(nombre);
+     $("#titulodocumentoa").text(nombre);
+     $("#contenedoranexo").fadeIn("slow");
     
 }</script>
     
-<!-- <script src="<?php echo base_url(); ?>scripts/script7.js " ></script>  -->
+<!-- <script src=" echo base_url(); ?>scripts/script7.js " ></script>  -->
