@@ -6,7 +6,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">
-                        &times;
+                        &times;a
                     </button>
                     <center> 
                         <h2 class="modal-title">
@@ -27,7 +27,7 @@
                            <br>
                             <center>
                                 <video controls width="320" height="240">
-                                <source src="<?php echo base_url(); ?>css/video/Inicio/(Recuperar contraseña).mp4" type="video/mp4">
+                                <source src="<?php echo base_url(); ?>css/video/Inicio/1recuperar.mp4" type="video/mp4">
                                 Tu navegador no implementa el elemento <code>video</code>.
                                 </video>
                             </center>
@@ -44,7 +44,7 @@
                            <br>
                             <center>
                                 <video controls width="320" height="240">
-                                <source src="<?php echo base_url(); ?>css/video/Inicio/(Acceder como invitado).mp4" type="video/mp4">
+                                <source src="<?php echo base_url(); ?>css/video/Inicio/2invitado.mp4" type="video/mp4">
                                 Tu navegador no implementa el elemento <code>video</code>.
                                 </video>
                             </center>
@@ -61,7 +61,7 @@
                            <br>
                             <center>
                                 <video controls width="320" height="240">
-                                <source src="<?php echo base_url(); ?>css/video/Inicio/(Iniciar Sesion).mp4" type="video/mp4">
+                                <source src="<?php echo base_url(); ?>css/video/Inicio/3acceder.mp4" type="video/mp4">
                                 Tu navegador no implementa el elemento <code>video</code>.
                                 </video>
                             </center>

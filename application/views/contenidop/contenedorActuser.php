@@ -11,7 +11,7 @@
                     <form id="formactualizar" class="form-horizontal" method="POST" action="<?php base_url();?>profesor/modificardatospersonales" autocomplete="off">
                         <fieldset>
                             <legend class="text-center header">Modificando mis datos 
-                                <button type="reset" class="close" aria-label="Close" id="cerradatos">
+                                <button type="reset" class="close" aria-label="Close" id="cerradatos"> 
                                     <span aria-hidden="true">&times;</span>
                                 </button>                                                
                             </legend>
