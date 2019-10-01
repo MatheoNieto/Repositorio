@@ -27,7 +27,24 @@
                            <br>
                             <center>
                                 <video controls width="320" height="240">
-                                <source src="<?php echo base_url(); ?>css/video/Estudiante/1.(Editar_la_informacion_del_proyecto).mp4" type="video/mp4">
+                                <source src="<?php echo base_url(); ?>css/video/Estudiante/1crear.mp4" type="video/mp4">
+                                Tu navegador no implementa el elemento <code>video</code>.
+                                </video>
+                            </center>
+                        <div class="caption">
+                        <h3>Crear tu primer proyecto</h3>
+                        <p id="description2">La primera vez que inicies sesion aparecera un pequeño formulario que tendras que completar para iniciar con tu proyecto de grado</p>
+
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8 col-md-6">
+                        <div class="thumbnail">
+                           <br>
+                            <center>
+                                <video controls width="320" height="240">
+                                <source src="<?php echo base_url(); ?>css/video/Estudiante/2modificar.mp4" type="video/mp4">
                                 Tu navegador no implementa el elemento <code>video</code>.
                                 </video>
                             </center>
@@ -44,7 +61,7 @@
                            <br>
                             <center>
                                 <video controls width="320" height="240">
-                                <source src="<?php echo base_url(); ?>css/video/Estudiante/2.(Adjuntando_mi_primer_documento).mp4" type="video/mp4">
+                                <source src="<?php echo base_url(); ?>css/video/Estudiante/3adjunto.mp4" type="video/mp4">
                                 Tu navegador no implementa el elemento <code>video</code>.
                                 </video>
                             </center>
@@ -61,7 +78,7 @@
                            <br>
                             <center>
                                 <video controls width="320" height="240">
-                                <source src="<?php echo base_url(); ?>css/video/Estudiante/3.(Subir_un_anexo_en_el_proyecto).mp4" type="video/mp4">
+                                <source src="<?php echo base_url(); ?>css/video/Estudiante/5anexos.mp4" type="video/mp4">
                                 Tu navegador no implementa el elemento <code>video</code>.
                                 </video>
                             </center>
@@ -78,7 +95,7 @@
                            <br>
                             <center>
                                 <video controls width="320" height="240">
-                                <source src="<?php echo base_url(); ?>css/video/Estudiante/4.(Ver_informacion_de_los_estudiantes).mp4" type="video/mp4">
+                                <source src="<?php echo base_url(); ?>css/video/Estudiante/6integrantes.mp4" type="video/mp4">
                                 Tu navegador no implementa el elemento <code>video</code>.
                                 </video>
                             </center>
@@ -95,7 +112,7 @@
                            <br>
                             <center>
                                 <video controls width="320" height="240">
-                                <source src="<?php echo base_url(); ?>css/video/Estudiante/5.(Realizando_reporte_de_error).mp4" type="video/mp4">
+                                <source src="<?php echo base_url(); ?>css/video/Estudiante/7reporte.mp4" type="video/mp4">
                                 Tu navegador no implementa el elemento <code>video</code>.
                                 </video>
                             </center>
@@ -112,7 +129,7 @@
                            <br>
                             <center>
                                 <video controls width="320" height="240">
-                                <source src="<?php echo base_url(); ?>css/video/Estudiante/6.(Cambiar_la_personalizacion).mp4" type="video/mp4">
+                                <source src="<?php echo base_url(); ?>css/video/Estudiante/8personalizacion.mp4" type="video/mp4">
                                 Tu navegador no implementa el elemento <code>video</code>.
                                 </video>
                             </center>
@@ -129,7 +146,7 @@
                            <br>
                             <center>
                                 <video controls width="320" height="240">
-                                <source src="<?php echo base_url(); ?>css/video/Estudiante/7.(Como_ver_el_informe_final).mp4" type="video/mp4">
+                                <source src="<?php echo base_url(); ?>css/video/Estudiante/9anteproyecto.mp4" type="video/mp4">
                                 Tu navegador no implementa el elemento <code>video</code>.
                                 </video>
                             </center>

@@ -27,7 +27,7 @@
                            <br>
                             <center>
                                 <video controls width="320" height="240">
-                                <source src="<?php echo base_url(); ?>css/video/Invitado/(Buscar_un proyecto).mp4" type="video/mp4">
+                                <source src="<?php echo base_url(); ?>css/video/Invitado/1consultar.mp4" type="video/mp4">
                                 Tu navegador no implementa el elemento <code>video</code>.
                                 </video>
                             </center>
@@ -44,7 +44,7 @@
                            <br>
                             <center>
                                 <video controls width="320" height="240">
-                                <source src="<?php echo base_url(); ?>css/video/Invitado/(Comentar_un_documento).mp4" type="video/mp4">
+                                <source src="<?php echo base_url(); ?>css/video/Invitado/2comentar.mp4" type="video/mp4">
                                 Tu navegador no implementa el elemento <code>video</code>.
                                 </video>
                             </center>

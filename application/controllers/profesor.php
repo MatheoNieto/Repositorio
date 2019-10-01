@@ -168,7 +168,7 @@ class Profesor extends CI_Controller {
 //---------------------------------------Cargando documento desde su ID------------------------------------------------------->
 //---------------------------------------------------------------------------------------------------------------------------->
     
-    public function cargardocumentoAid(){          
+    public function cargardocumentoAid(){
             
         $sesion = $this->session->userdata('codigo'); 
         $id = $this->input->post('id');  
@@ -198,7 +198,6 @@ class Profesor extends CI_Controller {
 
         }else{
             
-            $this->load->view('contenidop/ContenedorCSSScripts', $datosu);
             $this->load->view('contenidop/contenedorAvances', $datosu);
             $this->load->view('contenidop/contenedorAnexos', $datosu);
             $this->load->view('contenidop/contenedorAnexosguardados', $datosu);
