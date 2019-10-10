@@ -461,7 +461,7 @@ public function creardocumento(){
             
                 $config['upload_path'] = "./css/anexos/";
                 $config['allowed_types'] = "*";
-                $config['max_size'] = 512000;
+                $config['max_size'] = 5120000;
                 $config['overwrite'] = 'TRUE';
 
         
